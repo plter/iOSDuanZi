@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "App.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+//    [[App getInstance] showLoading:@"正在加载"];
+    
     return YES;
 }
 

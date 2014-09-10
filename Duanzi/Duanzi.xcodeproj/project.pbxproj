@@ -10,10 +10,18 @@
 		3165BB8A19B8608E00A9D003 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3165BB8919B8608E00A9D003 /* main.m */; };
 		3165BB8D19B8608E00A9D003 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3165BB8C19B8608E00A9D003 /* AppDelegate.m */; };
 		3165BB9019B8608E00A9D003 /* Duanzi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3165BB8E19B8608E00A9D003 /* Duanzi.xcdatamodeld */; };
-		3165BB9319B8608E00A9D003 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3165BB9219B8608E00A9D003 /* ViewController.m */; };
 		3165BB9619B8608E00A9D003 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3165BB9419B8608E00A9D003 /* Main.storyboard */; };
 		3165BB9819B8608E00A9D003 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3165BB9719B8608E00A9D003 /* Images.xcassets */; };
 		3165BBA419B8608E00A9D003 /* DuanziTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3165BBA319B8608E00A9D003 /* DuanziTests.m */; };
+		3165BBAE19B8671600A9D003 /* text.png in Resources */ = {isa = PBXBuildFile; fileRef = 3165BBAD19B8671600A9D003 /* text.png */; };
+		3165BBB019B8671C00A9D003 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 3165BBAF19B8671C00A9D003 /* image.png */; };
+		3165BBB319B869EF00A9D003 /* DuanziList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3165BBB219B869EF00A9D003 /* DuanziList.m */; };
+		3165BBB919B86C3900A9D003 /* RecentTextList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3165BBB819B86C3900A9D003 /* RecentTextList.m */; };
+		3165BBBC19B86C6D00A9D003 /* RecentImageList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3165BBBB19B86C6D00A9D003 /* RecentImageList.m */; };
+		3193569619B94FC30084C8FE /* Net.m in Sources */ = {isa = PBXBuildFile; fileRef = 3193569519B94FC30084C8FE /* Net.m */; };
+		3193569919B955D00084C8FE /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3193569819B955D00084C8FE /* Tools.m */; };
+		319E641A19BED32E006DB091 /* App.m in Sources */ = {isa = PBXBuildFile; fileRef = 319E641919BED32E006DB091 /* App.m */; };
+		31A7738D19C0492F00400521 /* UserActionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A7738C19C0492F00400521 /* UserActionButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +41,27 @@
 		3165BB8B19B8608E00A9D003 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3165BB8C19B8608E00A9D003 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3165BB8F19B8608E00A9D003 /* Duanzi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Duanzi.xcdatamodel; sourceTree = "<group>"; };
-		3165BB9119B8608E00A9D003 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3165BB9219B8608E00A9D003 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3165BB9519B8608E00A9D003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3165BB9719B8608E00A9D003 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3165BB9D19B8608E00A9D003 /* DuanziTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuanziTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3165BBA219B8608E00A9D003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3165BBA319B8608E00A9D003 /* DuanziTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuanziTests.m; sourceTree = "<group>"; };
+		3165BBAD19B8671600A9D003 /* text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text.png; sourceTree = "<group>"; };
+		3165BBAF19B8671C00A9D003 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		3165BBB119B869EF00A9D003 /* DuanziList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuanziList.h; sourceTree = "<group>"; };
+		3165BBB219B869EF00A9D003 /* DuanziList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuanziList.m; sourceTree = "<group>"; };
+		3165BBB719B86C3900A9D003 /* RecentTextList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentTextList.h; sourceTree = "<group>"; };
+		3165BBB819B86C3900A9D003 /* RecentTextList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentTextList.m; sourceTree = "<group>"; };
+		3165BBBA19B86C6D00A9D003 /* RecentImageList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentImageList.h; sourceTree = "<group>"; };
+		3165BBBB19B86C6D00A9D003 /* RecentImageList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentImageList.m; sourceTree = "<group>"; };
+		3193569419B94FC30084C8FE /* Net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Net.h; sourceTree = "<group>"; };
+		3193569519B94FC30084C8FE /* Net.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Net.m; sourceTree = "<group>"; };
+		3193569719B955D00084C8FE /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		3193569819B955D00084C8FE /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		319E641819BED32E006DB091 /* App.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App.h; sourceTree = "<group>"; };
+		319E641919BED32E006DB091 /* App.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = App.m; sourceTree = "<group>"; };
+		31A7738B19C0492F00400521 /* UserActionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserActionButton.h; sourceTree = "<group>"; };
+		31A7738C19C0492F00400521 /* UserActionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserActionButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +105,24 @@
 			children = (
 				3165BB8B19B8608E00A9D003 /* AppDelegate.h */,
 				3165BB8C19B8608E00A9D003 /* AppDelegate.m */,
-				3165BB9119B8608E00A9D003 /* ViewController.h */,
-				3165BB9219B8608E00A9D003 /* ViewController.m */,
 				3165BB9419B8608E00A9D003 /* Main.storyboard */,
 				3165BB9719B8608E00A9D003 /* Images.xcassets */,
 				3165BB8E19B8608E00A9D003 /* Duanzi.xcdatamodeld */,
 				3165BB8719B8608E00A9D003 /* Supporting Files */,
+				3165BBB119B869EF00A9D003 /* DuanziList.h */,
+				3165BBB219B869EF00A9D003 /* DuanziList.m */,
+				3165BBB719B86C3900A9D003 /* RecentTextList.h */,
+				3165BBB819B86C3900A9D003 /* RecentTextList.m */,
+				3165BBBA19B86C6D00A9D003 /* RecentImageList.h */,
+				3165BBBB19B86C6D00A9D003 /* RecentImageList.m */,
+				3193569419B94FC30084C8FE /* Net.h */,
+				3193569519B94FC30084C8FE /* Net.m */,
+				3193569719B955D00084C8FE /* Tools.h */,
+				3193569819B955D00084C8FE /* Tools.m */,
+				319E641819BED32E006DB091 /* App.h */,
+				319E641919BED32E006DB091 /* App.m */,
+				31A7738B19C0492F00400521 /* UserActionButton.h */,
+				31A7738C19C0492F00400521 /* UserActionButton.m */,
 			);
 			path = Duanzi;
 			sourceTree = "<group>";
@@ -96,6 +130,8 @@
 		3165BB8719B8608E00A9D003 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3165BBAF19B8671C00A9D003 /* image.png */,
+				3165BBAD19B8671600A9D003 /* text.png */,
 				3165BB8819B8608E00A9D003 /* Info.plist */,
 				3165BB8919B8608E00A9D003 /* main.m */,
 			);
@@ -182,6 +218,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 3165BB7B19B8608E00A9D003;
 			productRefGroup = 3165BB8519B8608E00A9D003 /* Products */;
@@ -201,6 +238,8 @@
 			files = (
 				3165BB9619B8608E00A9D003 /* Main.storyboard in Resources */,
 				3165BB9819B8608E00A9D003 /* Images.xcassets in Resources */,
+				3165BBAE19B8671600A9D003 /* text.png in Resources */,
+				3165BBB019B8671C00A9D003 /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +258,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3165BB8D19B8608E00A9D003 /* AppDelegate.m in Sources */,
+				3193569619B94FC30084C8FE /* Net.m in Sources */,
+				31A7738D19C0492F00400521 /* UserActionButton.m in Sources */,
 				3165BB8A19B8608E00A9D003 /* main.m in Sources */,
-				3165BB9319B8608E00A9D003 /* ViewController.m in Sources */,
+				319E641A19BED32E006DB091 /* App.m in Sources */,
+				3193569919B955D00084C8FE /* Tools.m in Sources */,
+				3165BBB919B86C3900A9D003 /* RecentTextList.m in Sources */,
+				3165BBB319B869EF00A9D003 /* DuanziList.m in Sources */,
+				3165BBBC19B86C6D00A9D003 /* RecentImageList.m in Sources */,
 				3165BB9019B8608E00A9D003 /* Duanzi.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +383,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Duanzi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Duanzi/UMSocial_Sdk_4.1",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -349,6 +398,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Duanzi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Duanzi/UMSocial_Sdk_4.1",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -406,6 +459,7 @@
 				3165BBA919B8608E00A9D003 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3165BBAA19B8608E00A9D003 /* Build configuration list for PBXNativeTarget "DuanziTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +468,7 @@
 				3165BBAC19B8608E00A9D003 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
